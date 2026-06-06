@@ -1,21 +1,66 @@
-# SQA
-Repositorio para la materia de Aseguramiento de la calidad de software periodo abril 2026
+﻿# SQA
+Repositorio para la materia de Aseguramiento de la Calidad de Software — abril 2026
 
-# Práctica: Configuración de GitHub y Plantilla de Issues
-## Autor: Anthony Alejandro Minga Campoverde
-## Propósito de la práctica
-Este repositorio se utiliza para una práctica de Aseguramiento de Calidad de
+**Autor:** Anthony Alejandro Minga Campoverde
+
+## Práctica: Configuración de GitHub y Plantilla de Issues
+
+### Propósito
+Este repositorio se utiliza en una práctica de Aseguramiento de la Calidad de
 Software cuyo objetivo es aprender a configurar un repositorio profesional en
-GitHub, organizar su estructura inicial y crear una plantilla estandarizada de
-*issues* siguiendo buenas prácticas de aseguramiento de la calidad (QA).
-## Objetivos de aprendizaje
-- Configurar un repositorio en GitHu.
-- Comprender la estructura mínima recomendada para un proyecto de software.
-- Crear y utilizar plantillas de *issues* para gestionar tareas, bugs y mejoras.
-- Aplicar principios básicos de documentación y control de versiones.
-## Estructura del repositorio
-La práctica requiere crear la siguiente estructura mínima:
-- **docs**: documentación general del proyecto o práctica.
-- **src**: carpeta destinada al código fuente (aunque en esta práctica puede estar
-vacía).
-- **tests**: carpeta para pruebas (manuales o automatizadas).
+GitHub, organizar su estructura inicial y crear plantillas de *issues* siguiendo
+buenas prácticas de QA.
+
+### Objetivos de aprendizaje
+- **Configurar GitHub:** Crear un repositorio profesional y plantillas útiles.
+- **Estructura de proyecto:** Conocer la estructura mínima recomendada.
+- **Gestión de issues:** Diseñar plantillas para tareas, bugs y mejoras.
+- **Documentación:** Mantener README y documentación básica actualizada.
+
+## Estructura recomendada
+- **docs/**: Documentación general del proyecto.
+- **src/**: Código fuente del proyecto.
+- **tests/**: Pruebas (manuales o automatizadas).
+- **historias_usuario/**: Historias de usuario y requisitos funcionales.
+
+---
+
+## Proyecto: LePetitDep
+
+### Descripción
+LePetitDep es una aplicación web para pedir café y productos de panadería para
+recoger en el local. Está diseñada como un proyecto de práctica para aplicar
+principios de diseño, pruebas y aseguramiento de la calidad.
+
+### Funcionalidades principales
+- Registro de usuario y gestión de cuentas.
+- Inicio de sesión y autenticación.
+- Exploración del menú (categorías y detalles de producto).
+- Añadir productos al carrito y gestionarlo.
+- Realizar pedidos para recogida en el local.
+- Consultar historial y estado de pedidos.
+
+### Casos de uso / Historias de usuario
+- Ver [historias_usuario/historia_1.md](historias_usuario/historia_1.md) 
+- Ver [historias_usuario/historia_2.md](historias_usuario/historia_2.md).
+- Ver [historias_usuario/historia_3.md](historias_usuario/historia_3.md).
+- Ver [historias_usuario/historia_4.md](historias_usuario/historia_4.md).
+- Ver [historias_usuario/historia_5.md](historias_usuario/historia_5.md).
+- Ver [historias_usuario/historia_6.md](historias_usuario/historia_6.md).
+
+### Estructura del repositorio (actual)
+
+SQA/
+- historias_usuario/
+  - historia_1.md
+  - historia_2.md
+  - historia_3.md
+  - historia_4.md
+  - historia_5.md
+  - historia_6.md
+- src/
+- tests/
+- docs/
+- README.md
+
+---
